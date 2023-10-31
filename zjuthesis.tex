@@ -19,15 +19,15 @@
     % Layout Settings
     TwoSide         = true,             % set to false if don't need empty pages
     % Thesis Info
-    StudentName     = 姓名,
-    StudentID       = 学号,
-    AdvisorName     = 指导教师,
-    Grade           = 2014,            % only the year, no '级'
-    Major           = 专业,
-    Department      = 学院,
-    SubmitDate      = 递交日期,
+    StudentName     = 尹呈今,
+    StudentID       = 22124030,
+    AdvisorName     = 蒙涛,
+    Grade           = 2024,            % only the year, no '级'
+    Major           = 航空宇航科学与技术,
+    Department      = 航空航天学院,
+    SubmitDate      = 2023.12.30,
     MajorFormat     = general,
-    Degree          = undergraduate,   % 'undergraduate' or 'graduate'
+    Degree          = graduate,   % 'undergraduate' or 'graduate'
     Type            = thesis,          % 'thesis'   or 'design'
     Period          = final,           % 'proposal' or 'paper' or 'final'
     BlindReview     = false,           % 'false'    or 'true'
@@ -42,16 +42,13 @@
     ListOfTables    = true,
     ListOfAlgorithms= false,
     % Title
-    Title           = 毕业论文/设计题目,
+    Title           = 基于FPGA的可重构卫星姿控平台,
     TitleEng        = {{Graduation Thesis Title}}
 ]{zjuthesis}
 
 %% Uncomment the following lines if you need multi line titles on cover pages
 % \titletwolines{毕业论文题目第一行}{毕业论文题目第二行}
 % \titleengtwolines{English Title Line One}{English Title Line Two}
-
-%% Uncomment the following lines if you need multi line major names on cover pages
-% \majortwolines{专业名第一行}{专业名第二行}
 
 %% Uncomment the following lines if you need multi line department names on cover pages
 % \departmenttwolines{学院名第一行}{学院名第二行}
@@ -74,8 +71,6 @@
 
         \bodystyle
         \inputpage{final}{cover-part}
-
-        \resetpagecounter{}
         \inputbody{final/content}
         \inputbody{final/post}
 
